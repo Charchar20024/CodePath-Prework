@@ -27,35 +27,34 @@ The following **optional** features are implemented:
 * [✔︎] Playback speeds up on each turn
 * [✔︎] Computer picks a different pattern each time the game is played
 * [✔︎] Player only loses after 3 mistakes (instead of on the first mistake)
-* [ ] Game button appearance change goes beyond color (e.g. add an image)
-* [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
-* [ ] User has a limited amount of time to enter their guess on each turn
+* [  ] Game button appearance change goes beyond color (e.g. add an image)
+* [  ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+* [  ] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app!
+- [  ] List anything else that you can get done to improve the app!
 
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+
+![](https://i.imgur.com/zd7v4bx.gif)
+
+![](https://i.imgur.com/ojkqkwC.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 	 - www.w3schools.com
-	 - HTML | Codecademy
-     - CSS Tutorial
+	 - [HTML | Codecademy](https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet)
 	 - www.stackoverflow.com
-	 - GeeksforGeeks
-     - HTML Cheat Sheet
+	 - [GeeksforGeeks](https://www.geeksforgeeks.org)
+    
 
 2. What was a challenge you encountered in creating this submission (be specific)? 
 How did you overcome it? (recommended 200 - 400 words) 
 
-While creating this submission I ran into a couple of challenges some that 
+    While creating    this submission I ran into a couple of challenges some that 
 I found a solution too and some I did not. If I remember correctly the first 
 problem that I had was my attempt to change the speed of the clue playback. As 
 instructed, I updated the “clueHoldTime” var to decrement for each playback,
@@ -65,20 +64,20 @@ to get too small too fast which caused that sequence to stop before reaching
 the end.  After plenty of test runs, I found that decrementing by 25 allowed 
 the program to change in speed throughout the whole pattern.
 
-Another challenge I encountered was creating a random array pattern for the 
+    Another challenge I encountered was creating a random array pattern for the 
 sequence. Essentially the problem was that my program which create an array 
 of number from 0 to 5, this caused the clue playback to sometimes not play a 
 button if 0 was randomly chosen in the array. What I needed was for the array 
 of number from 1 to 6 and I that by adding 1 to each number generated.
 
-Adding a p
+    Adding a p
 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
 
 
 
