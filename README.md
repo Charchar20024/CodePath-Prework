@@ -74,7 +74,7 @@ How did you overcome it? (recommended 200 - 400 words)
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://www.loom.com/share/29f19efe0b98477aa94224c6711f48e1)
 
 
 ## License
